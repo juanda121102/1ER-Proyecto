@@ -1,0 +1,43 @@
+.escaleras {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .escalon {
+    background: #d9d9d9;
+    border: 1px solid #bfbfbf;
+    width: 100px;
+    height: 15px;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  
+  .escalon1 { width: 30px; bottom: 0; }
+  .escalon2 { width:35px; margin-top: -5px; }
+  .escalon3 { width: 40px; margin-top: -5px; }
+  .escalon4 { width: 45px; margin-top: -5px; }
+  .escalon5 { width: 50px; margin-top: -5px; }
+  .escalon6 { width: 55px; margin-top: -5px; }
+  .escalon7 { width: 60px; margin-top: -5px; }
+  .escalon8 { width: 65px; margin-top: -5px; }
+  .escalon9 { width: 70px; margin-top: -5px; }
+  .escalon10 { width: 75px; margin-top: -5px; }
+  .escalon11 { width: 80px; margin-top: -5px; }
+  .escalon12 { width: 85px; margin-top: -5px; }
+  .escalon13 { width: 90px; margin-top: -5px; }
+  .escalon14 { width: 95px; margin-top: -5px; }
+  .escalon15 { width: 100px; margin-top: -5px; }
+  .escalon16 { width: 105px; margin-top: -5px; }
+  .escalon17 { width: 110px; margin-top: -5px; }
+  .escalon18 { width: 115px; margin-top: -5px; }
+  .escalon19 { width: 120px; margin-top: -5px; }
+  .escalon20 { width: 125px; margin-top: -5px; }
+    .escalon21 { width: 130px; margin-top: -5px; }
+    .escalon22 { width: 135px; margin-top: -5px; }
+    .escalon23 { width: 140px; margin-top: -5px; }
+    .escalon24 { width: 145px; margin-top: -5px; }
+    .escalon25 { width: 150px; margin-top: -5px; }
+    .escalon26 { width: 155px; margin-top: -5px; }  

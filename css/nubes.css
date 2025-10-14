@@ -1,0 +1,32 @@
+.nube {
+    position: absolute;              
+    background: white;             
+    border-radius: 50px;            
+    width: 120px;                    
+    height: 40px;                    
+    top: 80px;                       
+    animation: moverNube 20s linear infinite; 
+    opacity: 0.9;                    
+  }
+  
+  .nube::before, .nube::after {
+    content: '';                    
+    position: absolute;             
+    background: white;              
+    width: 60px;                    
+    height: 60px;
+    border-radius: 50%;             
+    top: -20px;                     
+  }
+  
+  .nube::before { left: 10px; }     
+  .nube::after { right: 10px; }      
+  
+  .nube1 { left: -150px; animation-delay: 0s; }    
+  .nube2 { left: -300px; top: 150px; animation-delay: 10s; } 
+  
+  @keyframes moverNube {
+    from { transform: translateX(0); }      
+    to { transform: translateX(120vw); }     
+  }
+  

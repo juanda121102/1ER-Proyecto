@@ -1,0 +1,8 @@
+.montaña-derecha {
+    height: 300px;
+    right: 350px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    background: linear-gradient(to top, #2f8c3e, #4caf50);
+    z-index: 0;
+  }

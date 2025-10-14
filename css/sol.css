@@ -1,0 +1,16 @@
+.sol {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #ffeb3b, #fbc02d);
+    border-radius: 50%;
+    animation: sunMove 6s ease-in-out infinite alternate;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .sol:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #f0e10d;
+  }
